@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bitdefender Central - Manage All Your Devices Securely</title>
+  <meta name="description" content="Bitdefender Central is your centralized hub to manage security across all your devices. Download, install, and stay protected with ease."/>
+  <meta name="keywords" content="Bitdefender Central, download Bitdefender, install antivirus, protect devices, online security, parental control, anti-theft, remote scan"/>
+  <meta name="author" content="Bitdefender Team"/>
+  <meta property="og:title" content="Bitdefender Central - Manage All Your Devices Securely"/>
+  <meta property="og:description" content="Secure all your devices from one dashboard with Bitdefender Central. Easy downloads, remote scans, anti-theft tools, and more."/>
+  <meta property="og:image" content="bitdefender central.jpg"/>
+  <meta property="og:type" content="website"/>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: #222;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top banner */
+    .top-banner {
+      background-color: #1c1c1c;
+      color: white;
+      padding: 15px 25px;
+      font-size: 1.5rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .top-banner img {
+      height: 28px;
+      margin-right: 10px;
+    }
+
+    /* Hero Banner */
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px;
+      background: linear-gradient(to right, #0f172a, #1e293b);
+      color: white;
+    }
+
+    .hero img {
+      width: 50%;
+      max-width: 500px;
+      border-radius: 12px;
+    }
+
+    .hero-text {
+      flex: 1;
+      padding-left: 40px;
+    }
+
+    .hero-text h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .hero-text p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .hero-text a.button {
+      background-color: orange;
+      color: black;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+    }
+
+    .main {
+      display: flex;
+      flex: 1;
+    }
+
+    .sidebar {
+      width: 240px;
+      background-color: #111;
+      color: white;
+      height: 100%;
+      position: sticky;
+      top: 60px;
+      padding: 20px;
+      flex-shrink: 0;
+    }
+
+    .sidebar h2 {
+      font-size: 1.3em;
+      margin-bottom: 20px;
+      color: orange;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 10px 5px;
+      border-left: 4px solid transparent;
+      margin-bottom: 5px;
+      transition: all 0.2s;
+    }
+
+    .sidebar a:hover {
+      background-color: #222;
+      border-left: 4px solid orange;
+    }
+
+    .content {
+      flex: 1;
+      padding: 30px 40px;
+      max-width: 1000px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 30px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    .card ul, .card ol {
+      padding-left: 20px;
+    }
+
+    a {
+      color: #007bff;
+    }
+
+    .visual-image {
+      width: 100%;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .main {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      .hero {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .hero img {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .hero-text {
+        padding-left: 0;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Banner -->
+  <div class="top-banner">
+    <img src="C:\Users\G2G\Downloads\225.png" alt="Tick" />
+    Bitdefender Central
+  </div>
+
+  <!-- Hero Banner -->
+  <div class="hero">
+    <img src="C:\Users\G2G\Downloads\bitdefender central.jpg" alt="Bitdefender Dashboard" />
+    <div class="hero-text">
+      <h1>Bitdefender Central: Your Cybersecurity Command Center</h1>
+      <p>Control, monitor, and secure all your devices from one easy dashboard.</p>
+      <a href="#download" class="button">Start Now</a>
+    </div>
+  </div>
+
+  <div class="main">
+    <!-- Sidebar -->
+    <nav class="sidebar">
+      <h2>Menu</h2>
+      <a href="#overview">Overview</a>
+      <a href="#features">Key Features</a>
+      <a href="#who">Who Should Use</a>
+      <a href="#download">Download</a>
+      <a href="#install">Install Central</a>
+      <a href="#protect">Protect Devices</a>
+      <a href="#login">Login</a>
+      <a href="#why">Why Choose Bitdefender</a>
+      <a href="#tips">Quick Tips</a>
+      <a href="#conclusion">Conclusion</a>
+    </nav>
+
+    <!-- Content -->
+    <div class="content">
+      <div id="overview" class="card">
+        <h2>Bitdefender Central Overview</h2>
+        <p>BitDefender Central is a web-based and mobile-accessible platform designed to help you manage your
+ BitDefender subscription, set up protection on your devices, and monitor your cybersecurity status – all from a single dashboard.</p>
+      </div>
+
+      <div id="features" class="card">
+        <h2>Key Features</h2>
+        <ul>
+          <li>Unified Dashboard</li>
+          <li>Remote Management</li>
+          <li>Parental Controls</li>
+          <li>Anti-Theft</li>
+          <li>Subscription Management</li>
+	  <li>Comprehensive Support</li>
+        </ul>
+      </div>
+
+      <div id="who" class="card">
+        <h2>Who Should Use It?</h2>
+        <ul>
+          <li>Families: Manage and monitor the safety of multiple household devices from one account.</li>
+          <li>Remote Workers: Ensure your work devices stay secure—even when outside the office.</li>
+          <li>Tech Users: Explore advanced tools and settings to fine-tune your cybersecurity environment.</li>
+        </ul>
+      </div>
+
+      <div id="download" class="card">
+        <h2>How to Download</h2>
+        <ol>
+          <li>Visit <a href="https://www.bitdefender.com">bitdefender.com</a></li>
+          <li>Select your OS</li>
+          <li>Click "Free Download"</li>
+          <li>Run the installer</li>
+        </ol>
+      </div>
+
+      <div id="install" class="card">
+        <h2>Install Bitdefender Central</h2>
+        <ol>
+          <li>Visit <a href="https://central.bitdefender.com">central.bitdefender.com</a></li>
+          <li>Create/sign in</li>
+          <li>Download & install</li>
+        </ol>
+      </div>
+
+      <div id="protect" class="card">
+        <h2>Protecting Devices</h2>
+        <ol>
+          <li>Sign in</li>
+          <li>Install protection</li>
+          <li>Configure settings</li>
+        </ol>
+      </div>
+
+      <div id="login" class="card">
+        <h2>Login</h2>
+        <p>Go to <a href="https://central.bitdefender.com">central.bitdefender.com</a> and sign in by entering your email and password.</p>
+      </div>
+
+      <div id="why" class="card">
+        <h2>Why Choose Bitdefender Central?</h2>
+        <ul>
+          <li>User-Friendly</li>
+          <li>Cross-Platform</li>
+          <li>Secure</li>
+        </ul>
+      </div>
+
+     <div id="tips" class="card">
+        <h2>Quick Tips for New Users</h2>
+        <ul>
+          <li>Enable Two-Factor Authentication immediately after setup.</li>
+          <li>Regularly check device security status.</li>
+          <li>Use the “People” tab to manage and monitor family member devices separately.</li>
+        </ul>
+      </div>
+
+      <div id="conclusion" class="card">
+        <h2>Conclusion</h2>
+        <p>In today’s digital world, Bitdefender Central brings unmatched convenience, control, and confidence to your cybersecurity
+ experience. Whether you're a tech expert or a beginner, its clean interface and robust tools ensure your devices—and your loved ones—stay protected 24/7.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
